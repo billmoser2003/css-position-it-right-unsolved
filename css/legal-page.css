@@ -1,17 +1,49 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  margin-top: 140px;
+  padding-top: 30px; 
+}
+.exercise-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; 
+  background-color: black; 
+  z-index: 1100; 
+}
+.legal-heading-container {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
 .legal-header {
   background-color: #e2e2e2;
-  padding: 30px;
-  margin-top: 60px;
+  padding: 15px;
   width: 100%;
+  position: fixed;
+  top: 60px; 
+  right: 0;
+  z-index: 1000;
 }
 
 .legal-header h1 {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
-}
-
-main {
+  z-index: 1000;
 }
 
 section {
@@ -26,10 +58,13 @@ section {
 }
 
 .section-label {
+  position:sticky;
+  top:140px; 
   width: 100%;
   background-color: #2b2d3b;
   height: max-content;
   padding: 10px 16px;
+  z-index: 1;
 }
 
 .document-content {
@@ -39,7 +74,8 @@ section {
   max-width: 600px;
 }
 
-.document-content p {
+.document-content p,
+.document-content li {
   line-height: 28px;
 }
 
@@ -48,17 +84,16 @@ section {
   padding-left: 40px;
 }
 
-.document-content li {
-  line-height: 28px;
-}
-
 footer {
+  position: sticky;
+  bottom: 0;
   display: flex;
   align-items: center;
   width: 100%;
   background-color: #e2e2e2;
   padding: 0 30px;
   min-height: 70px;
+  z-index: 800;
 }
 
 .footer-content {
@@ -87,3 +122,4 @@ footer {
   color: black;
   cursor: not-allowed;
 }
+

@@ -53,42 +53,42 @@ This assignment should prove that a student is able to:
 `For the Robot Face exercise:`
 
 - [ ] Visit the [The shapes of CSS](https://css-tricks.com/the-shapes-of-css/) article for some shapes inspiration.
-- [ ] Edit the following files to solve that part of the assignment:
-  - [ ] html: `/pages/fancy-robot.html`
-  - [ ] css: `/css/fancy-robot.css`
-- [ ] The container for the robot face (face shape) should be positioned/aligned following the rules:
-  - [ ] It should be horizontally centered to the viewport width and height.
-  - [ ] The container should not overlap the header section.
-- [ ] Style the shape of the robot face to follow the requirements:
-  - [ ] Should be a simple shape (square, circle, oval).
-  - [ ] Should have a border of any style, color and width.
-  - [ ] The face parts should NOT touch the border in their static positions.
-  - [ ] The corners of the face shape should NOT be a straight (right) angle.
+- [ ] least one shape should be based on relative units relative to the font size. Edit the following files to solve that part of the assignment:
+  - [X] html: `/pages/fancy-robot.html`
+  - [X] css: `/css/fancy-robot.css`
+- [X] The container for the robot face (face shape) should be positioned/aligned following the rules:
+  - [X] It should be horizontally centered to the viewport width and height.
+  - [X] The container should not overlap the header section.
+- [X] Style the shape of the robot face to follow the requirements:
+  - [X] Should be a simple shape (square, circle, oval).
+  - [x] Should have a border of any style, color and width.
+  - [x] The face parts should NOT touch the border in their static positions.
+  - [x] The corners of the face shape should NOT be a straight (right) angle.
 - [ ] Create unique random shapes for the following internal elements of the face:
-  - [ ] Left eye
-  - [ ] Right eye
-  - [ ] Nose
-  - [ ] Mouth
-  - [ ] Teeth/tooth
+  - [x] Left eye
+  - [X] Right eye
+  - [X] Nose
+  - [X] Mouth
+  - [X] Teeth/tooth
   - [ ] **!!!Optional** Add any other part you want.
 - [ ] Create unique random shapes for the following external elements of the face:
-  - [ ] Hair style
-  - [ ] Left ear
-  - [ ] Right ear
+  - [X] Hair style
+  - [X] Left ear
+  - [X] Right ear
   - [ ] **!!!Optional** Add any other part you want.
-- [ ] Shapes must follow the guidelines:
-  - [ ] Each shape must be unique. It is permissible to use the same shape for two paired face elements, but they must have different orientations or directions.
-  - [ ] Use the following types of shapes:
-    - [ ] At least one square shape
-    - [ ] At least one circle shape
-    - [ ] At least one rectangle shape
-    - [ ] At least one oval shape
-    - [ ] Any other shapes of your choice. You can add additional containers to create a combined shape and additional classes inside the current face part.
-  - [ ] At least one shape should have a solid background color chosen from the available [HTML colors](https://www.w3schools.com/html/html_colors.asp).
-  - [ ] At least one shape should have a gradient background color chosen from the available [UI gradients](https://uigradients.com/).
-  - [ ] At least one shape should have a background image that fits the shape and doesn't overflow it, using images from [Lorem Picsum](https://picsum.photos/) or any other images CDN service.
-  - [ ] The width and / or height height of at least one shape should be based on the percentage units relative to the dimensions of the face shape.
-  - [ ] The width and / or height of at least one shape should be based on relative units relative to the font size.
+- [X] Shapes must follow the guidelines:
+  - [X] Each shape must be unique. It is permissible to use the same shape for two paired face elements, but they must have different orientations or directions.
+  - [X] Use the following types of shapes:
+    - [X] At least one square shape
+    - [X] At least one circle shape
+    - [X] At least one rectangle shape
+    - [X] At least one oval shape
+    - [X] Any other shapes of your choice. You can add additional containers to create a combined shape and additional classes inside the current face part.
+  - [X] At least one shape should have a solid background color chosen from the available [HTML colors](https://www.w3schools.com/html/html_colors.asp).
+  - [X] At least one shape should have a gradient background color chosen from the available [UI gradients](https://uigradients.com/).
+  - [x] At least one shape should have a background image that fits the shape and doesn't overflow it, using images from [Lorem Picsum](https://picsum.photos/) or any other images CDN service.
+  - [x] The width and / or height height of at least one shape should be based on the percentage units relative to the dimensions of the face shape.
+  - [x] The width and / or height of at
   - [ ] At least one shape should have an opacity of 50% or be semi-transparent.
 - [ ] Position the shapes inside or outside the face shape according to the following guidelines:
   - [ ] In-face elements should be positioned in relation to their static position.
